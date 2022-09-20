@@ -4,9 +4,7 @@ import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
-        String name ="Amine";
-
-
+        Constructor constructor = new Constructor();
         // we have two data tipe to create a variable
         // first is primirives same int , double , string ...
         // second is referances type or objects for store complecsse data type  { Date}
