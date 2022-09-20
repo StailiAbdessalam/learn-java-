@@ -9,9 +9,13 @@ public class PalindromeNumber {
             dev=(dev*10)+r;
         }
         if(dev==number)
-            System.out.println("palindrome number ");
+
+
+        System.out.println("palindrome number ");
         else
             System.out.println("not palindrome");
 
     }
 }
+
+
