@@ -1,11 +1,11 @@
 class Abstract{
-    public static void  main(String args[]){
+    public static void main(String args[]){
         Test th=new TestAbstract();
         th.method();
     }
 }
 abstract class Test {
-    abstract  void method();
+    abstract void method();
 
      int number(){
          return 1;
@@ -22,7 +22,6 @@ class TestAbstract extends Test{
     int number(){
         return 12;
     }
-
 
     // that false because class abstract is not suport a instance object in a new class
     //        Abstract test = new Abstract();
