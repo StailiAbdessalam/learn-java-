@@ -41,5 +41,10 @@ interface note{
     void multiple();
 }
 interface name{
-    void getName();
+    default void getName(){
+        System.out.println("idhfiodhsi");
+    };
 }
+
+// for more information we have
+// nested class  and nested interface and class nested interface and convert
